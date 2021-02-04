@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 19 13:30:57 2020
-
-@author: Lenovo
-"""
-
 import numpy as np 
 import pandas as pd 
 from sklearn.ensemble import RandomForestClassifier
@@ -146,7 +139,7 @@ ypred3 = lr.predict(xtest)
 r2_score(ytest,ypred3)
 
 
-# from above three model for mtcars , r2 score of Randomforest is maximum , so RF model is most favourable model in this data set.
+
 x
 x.head()
 new_data= [[2.1,105],[3.1,150]]
